@@ -1,5 +1,3 @@
-
-
 # Libreria Bigbot
 Nos encanta hacerte la programación más fácil. En el apartado [Avanzado](/metodos-bot.html), descubre todos los métodos geniales de nuestra librería. Puedes descargar la libreria con el botón de "Descargar Libreria" o desde nuestro repo😍 en GitHub.
 
@@ -27,38 +25,3 @@ Después de haber descargado la libreria, simplemente sigue los pasos indicados 
   <source src="/Libreria.mp4" type="video/mp4">
   Tu navegador no soporta la etiqueta de video.
 </video>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const zipUrl = 'https://github.com/BigtronicaSAS/BigBot/archive/refs/heads/main.zip';
-
-  async function descargarArchivoZip(url, nombreArchivo) {
-    try {
-      // Hacer una solicitud para obtener el archivo zip
-      const response = await fetch(url);
-
-      if (!response.ok) {
-        throw new Error(`Error al descargar el archivo zip: ${response.statusText}`);
-      }
-
-      const blob = await response.blob();
-
-      const link = document.createElement('a');
-      link.href = window.URL.createObjectURL(blob);
-      link.download = nombreArchivo;
-      link.click();
-      window.URL.revokeObjectURL(link.href);
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  }
-
-  // Obtener el botón
-  const botonDescarga = document.getElementById('descargarBoton');
-
-  // Agregar event listener para detectar clics en el botón
-  botonDescarga.addEventListener('click', function() {
-    descargarArchivoZip(zipUrl, 'bigbot.zip');
-  });
-});
-</script>
