@@ -3,6 +3,13 @@ import LiteVideo from '/../Components/LiteVideo.vue'
 </script>
 # Evasor de Obstaculos
 
+<br/>
+  <LiteVideo
+    id="Qi_BkfRrMV0"
+    title="Evasor de Obstaculos"
+    thumbnail="/EvasorMagic2WD.webp"
+  />
+
 ## Conexion 
 
 🔗 Para programar tu evasor de obstáculos, conecta el sensor ultrasónico HC-SR04 según la imagen. Puedes adquirir el sensor en nuestra tienda virtual [aquí](https://www.bigtronica.com/sensores/ultrasonido/55-sensor-ultrasonido-hc-sr04-5053212000554.html) para la Shield L298P.
@@ -17,7 +24,7 @@ Esta función requiere tres parámetros: el primero es el **objeto Bot** que hem
 void Obstaculo(Bot &bot, int minVelocidad=100, int Distancia = 30);
 ```
 
-A continuación, se presenta un ejemplo de código para configurar un evasor de obstáculos para un Bigbot `MAGIC`. En este caso, hemos establecido una velocidad de 180 y una distancia máxima de detección de 50 cm. 
+A continuación, se presenta un ejemplo de código para configurar un evasor de obstáculos para un Bigbot `MAGIC` 2WD. En este caso, hemos establecido una velocidad de 180 y una distancia máxima de detección de 50 cm. 
 ```c
 #include <Bigbot.h>
 
@@ -53,12 +60,3 @@ Obstaculo(mibot); // Velocidad por defecto de 100 y distancia de 30cm
 void loop() {
 }
 ```
-
-
-## A jugar!
-¡Listo para la acción! Simplemente coloca la shield sobre el  Arduino y prepárate para la diversión. 🎉 ¡Qué maravilla, ¿verdad?!
-
-  <LiteVideo
-    id="Qi_BkfRrMV0"
-    title="Evasor de Obstaculos"
-  />

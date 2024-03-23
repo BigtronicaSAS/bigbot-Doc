@@ -3,9 +3,15 @@ import LiteVideo from '/../Components/LiteVideo.vue'
 </script>
 
 # Control PS2
+  <br/>
+  <LiteVideo
+    id="lrEBo1PbUA4"
+    title="Bigbot MAGIC 4WD PS2"
+    thumbnail="/PS2Magic2WD.webp"
+  />
 
 
-🕹️ Aunque el mando PS2 no fue originalmente diseñado para el control de plataformas robóticas, BigBot se acerca a esta experiencia con una librería. Ten en cuenta que puede presentar bugs, errores y desconexiones repentinas. Por lo tanto, este producto se ofrece con fines educativos. 🤖📚
+🕹️ Aunque el mando de Play2 no fue originalmente diseñado para el control de plataformas robóticas, BigBot se acerca a esta experiencia con una librería. Ten en cuenta que puede presentar bugs, errores y desconexiones repentinas. Por lo tanto, este producto se ofrece con fines educativos. 🤖📚
 
 ::: info Nota:
 💡 Para garantizar una alta durabilidad del control PS2 y su protección, recomendamos conectar un conversor lógico de 3.3V a 5V. El nivel lógico del mando es de 3.3V, lo que asegura un rendimiento óptimo a lo largo del tiempo. Puedes adquirir el conversor lógico [aquí](https://www.bigtronica.com/comunicaciones/conversores-de-senal/300-conversor-nivel-logico-4ch-5053212003005.html?search_query=conversor+logico&results=83). 🔗
@@ -50,7 +56,7 @@ Para el bot, hay dos velocidades adicionales: **media y turbo**, las cuales est�
 void PS2(Bot &bot, int minVelocidad=100);
 ```
 
-A continuación, te mostramos un ejemplo de código para configurar un Bigbot `MAGIC` con el Control PS2. En este caso, hemos establecido una velocidad de arranque de 70.
+A continuación, te mostramos un ejemplo de código para configurar un **Bigbot `MAGIC` 2WD** con el Control PS2. En este caso, hemos establecido una velocidad de arranque de 70.
 ```c
 #include <Bigbot.h>
 
@@ -85,11 +91,5 @@ PS2(mibot); // Velocidad por defecto de 100
 void loop() {
 }
 ```
-## A jugar!
 
-¡Y ahora, a jugar! ¡Qué maravilla, ¿verdad?! 🎉
 
-  <LiteVideo
-    id="lrEBo1PbUA4"
-    title="Bigbot MAGIC 4WD PS2"
-  />

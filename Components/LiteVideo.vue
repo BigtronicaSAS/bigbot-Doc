@@ -14,6 +14,10 @@ export default {
     videoTitle: {
       type: String,
       required: true
+    },
+    videoImage: {
+      type: String,
+      required: true
     }
   }
 }
@@ -25,6 +29,15 @@ export default {
     :id="videoId"
     :title="videoTitle"
     muted
-  />
+    :thumbnail="videoImage"
+  >
+
+</LiteYouTubeEmbed>
 </template>
 
+<style>
+
+.yt-lite:before{
+  display: none;
+}
+</style>

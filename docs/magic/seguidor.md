@@ -3,16 +3,24 @@ import LiteVideo from '/../Components/LiteVideo.vue'
 </script>
 
 # Seguidor de Linea
+
+<br/>
+  <LiteVideo
+    id="1X7-dO1EeGE"
+    title="Calibracion Sensores de Linea"
+    thumbnail="/seguidorMagic2WD.webp"
+  />
+
 ## Conexion
 
 🔗 Para programar tu seguidor de línea, sigue las conexiones según la imagen de los seguidores de línea a la Shield L298P.
 
-![conexion seguidor](/4WD_Seguidor.webp)
+![conexion seguidor de linea](/seguidor_2wd_magic.webp)
 
 
 ## Programación
 
-Para programar nuestro Bigbot como seguidor de línea, simplemente llamamos a la función **Seguidor()**, que requiere dos parámetros: el primero es el **objeto Bot** que has creado y el segundo es **la velocidad**. Si no se define la velocidad, por defecto será 100.
+Para programar nuestro Bigbot como seguidor de línea, simplemente llamamos a la función **Seguidor()**, que requiere dos parámetros: el primero es el **objeto Bot** que has creado y el segundo es **la velocidad**. Si no se define la velocidad, por defecto será de 100.
 ```c
 void Seguidor(Bot &bot, int minVelocidad=100);
 ```
@@ -60,14 +68,5 @@ void loop() {
 🛠️ ¡Calibra tus sensores de línea fácilmente! Observa el video, coloca un cartón negro en la pista, ajusta la sensibilidad con un destornillador hasta que el LED se apague al detectar la línea. ¡Listo!
   <LiteVideo
     id="AL-kroKrw0g"
-    title="Calibracion Sensores de Linea"
-  />
-
-## A jugar!
-
-¡Listo para la acción! Simplemente coloca la shield sobre el Arduino y prepárate para la diversión. 🎉 ¡Qué maravilla, ¿verdad?!
-
-  <LiteVideo
-    id="1X7-dO1EeGE"
     title="Calibracion Sensores de Linea"
   />
