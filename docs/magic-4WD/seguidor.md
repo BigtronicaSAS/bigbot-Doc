@@ -1,4 +1,15 @@
+<script setup>
+import LiteVideo from '/../Components/LiteVideo.vue'
+</script>
 # Seguidor de Linea
+
+<br/>
+  <LiteVideo
+    id="1X7-dO1EeGE"
+    title="Calibracion Sensores de Linea"
+    thumbnail="/seguidorMagic4WD.webp"
+  />
+
 ## Conexion
 
 🔗 Para programar tu seguidor de línea, sigue las conexiones según la imagen de los seguidores de línea a la Shield L298P.
@@ -53,12 +64,7 @@ void loop() {
 ## Calibracion Sensores
 
 🛠️ ¡Calibra tus sensores de línea fácilmente! Observa el video, coloca un cartón negro en la pista, ajusta la sensibilidad con un destornillador hasta que el LED se apague al detectar la línea. ¡Listo!
-
-<video width="100%" height="auto" autoplay loop muted>
-  <source src="/calibracionSensor.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
-
-## A jugar!
-
-¡Listo para la acción! Simplemente coloca la shield sobre el Arduino y prepárate para la diversión. 🎉 ¡Qué maravilla, ¿verdad?!
+  <LiteVideo
+    id="AL-kroKrw0g"
+    title="Calibracion Sensores de Linea"
+  />

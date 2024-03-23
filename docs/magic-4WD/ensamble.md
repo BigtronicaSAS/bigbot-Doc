@@ -30,7 +30,7 @@ A continuación, asignaremos nombres a las dos parejas de motores:
 ![Vista Armado Superior Magic 4WD](/magic_4wd_4.webp)
 
 ## Lamina Superior
-En este punto, los motores ya están instalados en la lámina inferior junto con sus respectivas ruedas de goma. Ahora, vamos a por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino, el sensor ultrasónico y el portapilas.
+En este punto, los motores ya están instalados en la lámina inferior junto con sus respectivas ruedas de goma. Ahora, vamos por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino, el sensor ultrasónico y el portapilas.
 
 ![Vista Armado Superior Magic 4WD](/magic_4wd_1.webp)
 
@@ -41,11 +41,13 @@ En este punto, los motores ya están instalados en la lámina inferior junto con
 
 ## Shield L298P
 
-La shield L298P permite controlar dos motores, un buzzer, un sensor ultrasónico, un servomotor e incluso la conexión Bluetooth. Es la opción más eficiente para agilizar la conexión.
+En la siguiente imagen, descubre cómo realizar la conexión de los motores con sus terminales asignados a la shield L298P. Esta configuración es exclusiva para el **Bigbot Magic 4WD**. 🔍🔧✨
 
 Simplemente coloca la shield sobre el Arduino, asegurándote de que **las borneras azules de la shield estén alineadas con el conector de alimentación del Arduino.**
 
- ### Alimentación
+![Conexion Motores a la shield](/magic_4wd_motores.webp)
+
+ ## Alimentación Shield
 
  :::warning ¡Atención!
 Asegúrate de contar con el voltaje adecuado y una corriente de trabajo óptima para un funcionamiento sin inconvenientes.
@@ -62,6 +64,7 @@ Conecta tu shield siguiendo la imagen: puentea con el jumper para alimentar tamb
 
 ![conexion Motores a la shield](/magic_4wd_5.webp)
 
-### Jumper
+## Jumper
 
 El jumper controla el suministro de voltaje de las baterías a la shield y el Arduino. Recuerda quitar el jumper al cargar el **código en el Arduino con la shield L298P conectada**. Después de completar la carga y estar listo, vuelve a colocar el jumper. 
+![conexion Motores a la shield](/magic_2wd_5.webp)

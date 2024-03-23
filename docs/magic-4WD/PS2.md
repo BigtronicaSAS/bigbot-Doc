@@ -1,7 +1,17 @@
+<script setup>
+import LiteVideo from '/../Components/LiteVideo.vue'
+</script>
+
 # Control PS2
+  <br/>
+  <LiteVideo
+    id="lrEBo1PbUA4"
+    title="Bigbot MAGIC 4WD PS2"
+    thumbnail="/PS2Magic4WD.webp"
+  />
 
 
-🕹️ Aunque el mando PS2 no fue originalmente diseñado para el control de plataformas robóticas, BigBot se acerca a esta experiencia con una librería. Ten en cuenta que puede presentar bugs, errores y desconexiones repentinas. Por lo tanto, este producto se ofrece con fines educativos. 🤖📚
+🕹️ Aunque el mando de Play2 no fue originalmente diseñado para el control de plataformas robóticas, BigBot se acerca a esta experiencia con una librería. Ten en cuenta que puede presentar bugs, errores y desconexiones repentinas. Por lo tanto, este producto se ofrece con fines educativos. 🤖📚
 
 ::: info Nota:
 💡 Para garantizar una alta durabilidad del control PS2 y su protección, recomendamos conectar un conversor lógico de 3.3V a 5V. El nivel lógico del mando es de 3.3V, lo que asegura un rendimiento óptimo a lo largo del tiempo. Puedes adquirir el conversor lógico [aquí](https://www.bigtronica.com/comunicaciones/conversores-de-senal/300-conversor-nivel-logico-4ch-5053212003005.html?search_query=conversor+logico&results=83). 🔗
@@ -30,10 +40,11 @@ La alimentacion del receptor PS2 es de 3.3V, si alimenta el receptor con 5V pued
 
 ¡Emparejar tu mando PS2 es tan fácil como ver una peli en un domingo relajado con la consola! 🕹️✨ Simplemente enciende tu mando y pulsa el botón `Mode`. Cuando veas que solo brilla el **LED rojo**, ¡ya está listo para la acción!
 
-<video width="100%" height="auto" autoplay loop muted>
-  <source src="/controlps2.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
+  <LiteVideo
+    id="63equ-vTId8"
+    title="Emparejar Mando PS2"
+  />
+
 
 ## Programación
 
@@ -81,11 +92,3 @@ PS2(mibot); // Velocidad por defecto de 100
 void loop() {
 }
 ```
-## A jugar!
-
-¡Y ahora, a jugar! ¡Qué maravilla, ¿verdad?! 🎉
-
-<video width="100%" height="auto" autoplay loop muted>
-  <source src="/BigbotPS2.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>

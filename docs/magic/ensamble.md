@@ -22,7 +22,7 @@ A continuación, asignaremos nombres a los motores:
 ![Laterales Bigbot Magic](/magic_2wd_1.webp)
 
 ## Lamina Superior
-En este punto, los motores ya están instalados en la lámina inferior junto con sus respectivas ruedas de goma. Ahora, vamos a por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino, el sensor ultrasónico y el portapilas.
+En este punto, los motores ya están instalados en la lámina inferior junto con sus respectivas ruedas de goma. Ahora, vamos por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino, el sensor ultrasónico y el portapilas.
 
 ![Vista Armado Superior Magic 4WD](/magic_2wd_2.webp)
 

@@ -1,4 +1,14 @@
+<script setup>
+import LiteVideo from '/../Components/LiteVideo.vue'
+</script>
 # Evasor de Obstaculos
+
+<br/>
+  <LiteVideo
+    id="Qi_BkfRrMV0"
+    title="Evasor de Obstaculos"
+    thumbnail="/EvasorMagic4WD.webp"
+  />
 
 ## Conexion 
 
@@ -51,7 +61,4 @@ void loop() {
 }
 ```
 
-
-## A jugar!
-¡Listo para la acción! Simplemente coloca la shield sobre el  Arduino y prepárate para la diversión. 🎉 ¡Qué maravilla, ¿verdad?!
 

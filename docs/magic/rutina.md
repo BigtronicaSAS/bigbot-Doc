@@ -17,7 +17,7 @@ Una vez que tengamos el Bigbot con estos componentes, solo necesitamos conectar 
 
 ![Conexion Pulsador Magic](/pulsador_magic.webp)
 
-### Pulsador Toggle: ¡Activa el Modo que Quieras!
+## Pulsador Toggle: ¡Activa el Modo que Quieras!
 
 **¿Cómo funciona?** Al encender el bigbot, este operará en modo obstáculo. Sin embargo, si desea cambiar al modo Seguidor, simplemente **presiona el pulsador durante 6 segundos** hasta que el Arduino detecte la interrupción del Bigbot.
 
