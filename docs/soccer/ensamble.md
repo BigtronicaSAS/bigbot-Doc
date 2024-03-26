@@ -1,36 +1,44 @@
 
-¡Bienvenido a la guía de ensamble del Bigbot **Magic SOCCER**! En esta sección, encontrarás los pasos mecánicos para armar tu Bigbot. Si ya has armado tu Bigbot, puedes pasar directamente a la guía de [**Cómo Programar**](/magic/bot.md). Esta versión básica viene equipada con el **control PS2**
+¡Bienvenido a la guía de ensamble del Bigbot **Magic SOCCER**! En esta sección, encontrarás los pasos mecánicos para armar tu Bigbot. Si ya has armado tu Bigbot, puedes pasar directamente a la guía de [**Cómo Programar**](/soccer/bot.md). Esta versión básica viene equipada con el **control PS2**
 
 ## Chasis
 
 Comenzamos ensamblando nuestro Bigbot SOCCER siguiendo la imagen de referencia. Este robot está diseñado para un montaje sencillo, con un chasis metálico y dos motores azules que se sujetan mediante tornillos y tuercas.
 
-![lamina inferior Motores Magic](/magic_soccer_0.webp)
+![Vista superior inferior motores soccer](/magic_soccer_0.webp)
  
 A continuación, asignaremos nombres a los motores:
 
 - **Lateral A** Conformado por el motor con terminales enumeradas `1 y 2`
 - **Lateral B** Conformado por el motor con terminales enumeradas `3 y 4 `
 
-![Laterales Bigbot Magic](/magic_soccer_1.webp)
+![Laterales Bigbot Magic SOCCER](/magic_soccer_1.webp)
+
+En la imagen siguiente, podrás observar que hay **cuatro soportes metálicos** colocados estratégicamente en el chasis para sostener la lámina de acrílico superior.
+
+![Soportes metalicos en el chasis para la lamina superior](/magic_soccer_3.webp)
 
 ## Lamina Superior
-En este punto, los motores ya están instalados en la lámina inferior junto con sus respectivas ruedas de goma. Ahora, vamos por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino, el sensor ultrasónico y el portapilas.
+En este punto, los motores ya están instalados en el chasis junto con sus respectivas ruedas de goma. Ahora, vamos por la lámina superior, donde estará ubicada toda la electrónica. En la siguiente imagen, encontrarás la disposición del Arduino y el portapilas.
 
-![Vista Armado Superior Magic 4WD](/magic_2wd_2.webp)
+![Vista Armado Superior Magic soccer](/magic_soccer_2.webp)
 
-¡Perfecto! Simplemente toma los soportes de plástico y une la lámina superior con la lámina inferior. ¡Aquí concluimos el ensamblaje mecánico!  Ahora, estamos listos para pasar a la siguiente fase de nuestro proyecto.
+¡Perfecto! Simplemente une la lámina superior con el chasis. ¡Aquí concluimos el ensamblaje mecánico!  Ahora, estamos listos para pasar a la siguiente fase de nuestro proyecto.
 
-![Vista de Armado Completo Magic 2WD](/magic_2wd_3.webp)
+![Vista de Armado Completo Magic soccer](/magic_soccer_4.webp)
 
 
 ## Shield L298P
 
-En la siguiente imagen, descubre cómo realizar la conexión de los motores con sus terminales asignados a la shield L298P. Esta configuración es exclusiva para el Bigbot Magic. 🔍🔧✨
+En la siguiente imagen, descubre cómo realizar la conexión de los motores con sus terminales asignados a la shield L298P. Esta configuración es exclusiva para el Bigbot **SOCCER**. 🔍🔧✨
 
 Simplemente coloca la shield sobre el Arduino, asegurándote de que **las borneras azules de la shield estén alineadas con el conector de alimentación del Arduino.**
 
-![conexion Motores a la shield](/magic_2wd_4.webp)
+![conexion Motores a la shield](/magic_soccer_5.webp)
+
+En la siguiente imagen detalla los laterales del **BigBot Soccer**.
+
+![conexion Motores a la shield](/magic_soccer_6.webp)
 
 
 ## Alimentación Shield
